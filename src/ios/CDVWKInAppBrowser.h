@@ -71,6 +71,7 @@
 @property (nonatomic) NSURL* currentURL;
 
 - (void)close;
+- (void)navigateTo:(NSURL*)url withHeaders:(NSString*)headers;
 - (void)navigateTo:(NSURL*)url;
 - (void)showLocationBar:(BOOL)show;
 - (void)showToolBar:(BOOL)show : (NSString *) toolbarPosition;
